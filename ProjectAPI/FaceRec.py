@@ -6,10 +6,10 @@ from firebase_admin import credentials, db, storage, messaging
 
 
 def InitFireBase():
-    cred = credentials.Certificate("Mini_Project_AI/arduino-iot-ae62c-firebase-adminsdk-swv1c-8449043da2.json")
+    cred = credentials.Certificate("path to certificate")
     firebase_admin.initialize_app(cred, {
-        'databaseURL': 'https://arduino-iot-ae62c-default-rtdb.firebaseio.com/',
-        'storageBucket': 'arduino-iot-ae62c.appspot.com'
+        'databaseURL': 'url',
+        'storageBucket': 'url'
     })
 
 def send_fcm_message(token, title, body):
@@ -97,7 +97,7 @@ ref.listen(reload_listener)
 ref2.listen(fireDetection)
 ref3.listen(rainDetection)
 
-registration_token = 'e4PG8PKPTfagiLP1PsNcW0:APA91bFlQZYRyLOLW2vQpvRxd-zjJHceLtAmKBucnavpFfpv5VrtCwneXetGSxbfEtTliH6maf5Vp77Dxw5PEVg163si7Nd9lcyd1MRiq9C_FD5kV3FdKL7OHt2wAVytCtc5Beuqdtos'
+registration_token = 'token'
 
 known_face_encodings, known_face_names = load_known_faces()
 
