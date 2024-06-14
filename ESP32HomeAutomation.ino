@@ -19,19 +19,13 @@
 #include <IRutils.h>
 #include <IRsend.h>
 
-//#define WIFI_SSID "HUAWEI Y7 Prime 2018"
-//#define WIFI_PASSWORD "Ali12345"
+#define WIFI_SSID "ssid Y7"
+#define WIFI_PASSWORD "password"
 
-//#define WIFI_SSID "Ali_Rahme"
-//#define WIFI_PASSWORD "12345678"
+#define SERVER_URL "Server url"
 
-#define WIFI_SSID "home_wifi"
-#define WIFI_PASSWORD "stw@5387"
-
-#define SERVER_URL "http://192.168.1.108:5000/speak"
-
-#define API_KEY "AIzaSyAjGJINmidI6Kl-HZk-33_7FyhRyogBhEQ"
-#define DATABASE_URL "https://arduino-iot-ae62c-default-rtdb.firebaseio.com/"
+#define API_KEY "Api_Key"
+#define DATABASE_URL "db url"
 
 #define LED1_PIN 25
 #define LED2_PIN 26
